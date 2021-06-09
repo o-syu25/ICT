@@ -2,6 +2,11 @@
   margin-top: 50px;
 }
 
+.slide-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
 /* main-panel */
   .main-panel {
     position: relative;

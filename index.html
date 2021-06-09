@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="./static/css/style.css">
     <link rel="stylesheet" href="./static/css/main.css">
     <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+      $(function(){
+         $('.bxslider').bxSlider({
+          auto: true,
+          minSlides: 3
+        });
+      });
+    </script>
 
     <title>ICT Support Team - Home -</title>
   </head>
@@ -24,13 +34,10 @@
     </header>
 
     <div class="main wrapper">
-      <div class="main-panel">
-        <img class="panel-image" src="static/image/SAKURA_WIDE.jpg">
-        <div class="panel-text">
-          <h1>Hello</h1>
-          <p>ICT Support Team.</p>
-        </div>
-      </div>
+      <ul class="bxslider">
+        <li><img class="slide-image" src="static/image/SAKURA_WIDE.jpg"></li>
+        <li><img class="slide-image" src="static/image/SAKURA_WIDE.jpg"></li>
+      </ul>
 
       <div class="contents">
         <header class="contents-header">
