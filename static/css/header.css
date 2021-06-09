@@ -1,0 +1,78 @@
+/* site-header */
+  header.site-header {
+    display: flex;
+    margin: 0 50px;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: solid 1px #ccc;
+    align-items: center;
+  }
+
+  header.site-header a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  header.site-header a:hover {
+    color: #0bd;
+  }
+
+  header>ul.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header>ul.main-nav>li {
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  @media(max-width: 600px) {
+    header.site-header {
+      flex-direction: column;
+    }
+
+    header>ul.main-nav {
+      margin: 0 0 20px;
+      padding: 0;
+    }
+  }
+
+/* page-header */
+  .page-header {
+    padding: 10px;
+    border-bottom: solid 1px #0bd;
+  }
+
+/* contents-header */
+  header.contents-header {
+    margin: 0 0 20px;
+  }
+
+  header.contents-header h1.title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  header.contents-header h1.title a {
+    color: #000;
+  }
+
+  header.contents-header h1.title a:hover {
+    color: #0bd;
+  }
+
+  header.contents-header h2.sub-title {
+    margin: 0;
+    padding-left: 20px;
+    color: #888;
+    font-size: 1.2rem;
+  }
+
+/* headline */
+  h3.headline {
+    font-size: 1.2rem;
+  }

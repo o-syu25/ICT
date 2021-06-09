@@ -1,0 +1,124 @@
+.main {
+  margin-top: 50px;
+}
+
+/* main-panel */
+  .main-panel {
+    position: relative;
+  }
+
+  /* image */
+    .panel-image {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+  /* text */
+    .panel-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      padding: 1% 5%;
+
+      background: rgba(0, 0, 0, .6);
+      color: #fff;
+      text-align: center;
+      font-family: "Dancing Script";
+      border-radius: 5px;
+    }
+
+    .panel-text h1 {
+      margin: 10px 0;
+      font-size: 2.5rem;
+    }
+
+    .panel-text p {
+      font-size: 0.8rem;
+    }
+
+/* contents */
+  .contents {
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+  }
+
+  .contents:last-child {
+    border: 0;
+  }
+
+  .contents a {
+    color: #000;
+  }
+
+  .contents a:hover {
+    color: #0bd;
+  }
+
+  /* content */
+    .contents>.content {
+      padding: 0 20px;
+    }
+
+    .contents>.content ul, ol {
+      margin: 0;
+      padding: 0 20px;
+    }
+
+  /* iconつき */
+    .contents .field {
+      display: flex;
+      align-items: center;
+    }
+
+    .contents .field img {
+      width: 20%;
+      border-radius: 50%;
+    }
+
+    .contents .field .text {
+      width: 80%;
+      padding: 0 20px;
+    }
+
+    @media (max-width: 600px) {
+      .contents .field {
+        flex-direction: column;
+      }
+
+      .contents .field img {
+        margin-bottom: 10px;
+        border: solid 1px #ccc;
+      }
+  
+      .contents .field .text {
+        width: 100%;
+      }
+    }
+
+  .contents table {
+    border-collapse: collapse;
+    margin: 0 20px;
+  }
+
+  .contents table thead {
+    border-bottom: solid 2px #ccc;
+  }
+
+  .contents table tbody tr:hover {
+    background-color: rgba(180, 180, 180, .7);
+  }
+
+  .contents table th, td {
+    padding: 10px;
+    border-bottom: solid 1px #ccc;
+  }
+
+.right {
+  position: fixed;
+  top: 50%;
+  right: 0;
+}

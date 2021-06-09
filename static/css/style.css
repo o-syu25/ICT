@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+
+html {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  line-height: 1.7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: 0 10%;
+  padding: 0 10%;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    margin: 0 2%;
+    padding: 0 2%;
+  }
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+}
+
+footer .top {
+  margin: 0;
+  padding: 5px 0;
+  background-color: #0bd;
+  text-align: center;
+}
+
+footer .top a {
+  display: block;
+}
+
+footer .top a img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+footer .copy {
+  margin: 0;
+  padding: 10px 0;
+  background: #fff;
+  text-align: center;
+}
