@@ -17,6 +17,11 @@
     color: #0bd;
   }
 
+  header.site-header a img {
+    width: 220px;
+    vertical-align: bottom;
+  }
+
   header>ul.main-nav {
     display: flex;
     list-style: none;
